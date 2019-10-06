@@ -1,0 +1,23 @@
+2019/08/26 16:22:19 ---------------AddUser----------------
+2019/08/26 16:22:19 body:  {
+	"UserName": "francis08",
+	"Password": "123456",
+	"RoleCode": "FRAN",
+	"FullName": "Francis Vu",
+    "Token": "9716s5d4we814ds61d"
+}
+2019/08/26 16:22:45 ---------------AddUser----------------
+2019/08/26 16:22:45 body:  {
+	"UserName": "francis09",
+	"Password": "123456",
+	"RoleCode": "FRAN",
+	"FullName": "Francis Vu",
+    "Token": "ou4t4g5jkl4hrgheew"
+}
+2019/08/26 16:23:20 -----------UpdateUser-------------
+2019/08/26 16:23:38 -----------UpdateUser-------------
+2019/08/26 16:23:38 body:  {
+    "FullName": "Francis Vu"
+}
+2019/08/26 16:25:26 ------------------Logout API-------------------
+2019/08/26 16:26:08 ------------------Logout API-------------------

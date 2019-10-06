@@ -1,0 +1,49 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/v1/GetAllUsers       --> github.com/TIG/api-sqlite/controllers.GetAllUsers (6 handlers)
+[GIN-debug] GET    /api/v1/GetUserById/:id   --> github.com/TIG/api-sqlite/controllers.GetUserByID (6 handlers)
+[GIN-debug] POST   /api/v1/AddUser           --> github.com/TIG/api-sqlite/controllers.AddUser (6 handlers)
+[GIN-debug] PUT    /api/v1/UpdateUser/:id    --> github.com/TIG/api-sqlite/controllers.UpdateUser (6 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUser/:id    --> github.com/TIG/api-sqlite/controllers.DeleteUser (6 handlers)
+[GIN-debug] POST   /api/v1/Login             --> github.com/TIG/api-sqlite/controllers.Login (6 handlers)
+[GIN-debug] PUT    /api/v1/Logout/:token     --> github.com/TIG/api-sqlite/controllers.Logout (6 handlers)
+[GIN-debug] PUT    /api/v1/ChangePassword    --> github.com/TIG/api-sqlite/controllers.ChangePassword (6 handlers)
+[GIN-debug] GET    /api/v1/GetAllBatchs      --> github.com/TIG/api-sqlite/controllers.GetAllBatchs (6 handlers)
+[GIN-debug] GET    /api/v1/GetBatchById/:id  --> github.com/TIG/api-sqlite/controllers.GetBatchByID (6 handlers)
+[GIN-debug] POST   /api/v1/AddBatch          --> github.com/TIG/api-sqlite/controllers.AddBatch (6 handlers)
+[GIN-debug] PUT    /api/v1/UpdateBatch/:id   --> github.com/TIG/api-sqlite/controllers.UpdateBatch (6 handlers)
+[GIN-debug] DELETE /api/v1/DeleteBatch/:id   --> github.com/TIG/api-sqlite/controllers.DeleteBatch (6 handlers)
+[GIN-debug] Listening and serving HTTP on :3000
+[GIN] 2019/08/27 - 15:17:00 | 200 |     151.254ms |             ::1 | POST     /api/v1/Login
+[GIN] 2019/08/27 - 15:17:03 | 200 |     77.7852ms |             ::1 | POST     /api/v1/Login
+[GIN] 2019/08/27 - 15:17:07 | 200 |    188.0849ms |             ::1 | POST     /api/v1/Login
+[GIN] 2019/08/27 - 15:17:19 | 200 |       999.2µs |             ::1 | GET      /api/v1/GetAllUsers
+[GIN] 2019/08/27 - 15:18:24 | 200 |    142.9571ms |             ::1 | POST     /api/v1/Login
+[GIN] 2019/08/27 - 15:18:26 | 200 |     79.8074ms |             ::1 | POST     /api/v1/Login
+[GIN] 2019/08/27 - 15:19:06 | 200 |    130.6531ms |             ::1 | POST     /api/v1/Login
+[GIN] 2019/08/27 - 15:19:09 | 200 |    138.1134ms |             ::1 | POST     /api/v1/Login
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/v1/GetAllUsers       --> github.com/TIG/api-sqlite/controllers.GetAllUsers (6 handlers)
+[GIN-debug] GET    /api/v1/GetUserById/:id   --> github.com/TIG/api-sqlite/controllers.GetUserByID (6 handlers)
+[GIN-debug] POST   /api/v1/AddUser           --> github.com/TIG/api-sqlite/controllers.AddUser (6 handlers)
+[GIN-debug] PUT    /api/v1/UpdateUser/:id    --> github.com/TIG/api-sqlite/controllers.UpdateUser (6 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUser/:id    --> github.com/TIG/api-sqlite/controllers.DeleteUser (6 handlers)
+[GIN-debug] POST   /api/v1/Login             --> github.com/TIG/api-sqlite/controllers.Login (6 handlers)
+[GIN-debug] PUT    /api/v1/Logout/:token     --> github.com/TIG/api-sqlite/controllers.Logout (6 handlers)
+[GIN-debug] PUT    /api/v1/ChangePassword    --> github.com/TIG/api-sqlite/controllers.ChangePassword (6 handlers)
+[GIN-debug] GET    /api/v1/GetAllBatchs      --> github.com/TIG/api-sqlite/controllers.GetAllBatchs (6 handlers)
+[GIN-debug] GET    /api/v1/GetBatchById/:id  --> github.com/TIG/api-sqlite/controllers.GetBatchByID (6 handlers)
+[GIN-debug] POST   /api/v1/AddBatch          --> github.com/TIG/api-sqlite/controllers.AddBatch (6 handlers)
+[GIN-debug] PUT    /api/v1/UpdateBatch/:id   --> github.com/TIG/api-sqlite/controllers.UpdateBatch (6 handlers)
+[GIN-debug] DELETE /api/v1/DeleteBatch/:id   --> github.com/TIG/api-sqlite/controllers.DeleteBatch (6 handlers)
+[GIN-debug] Listening and serving HTTP on :3000
+[GIN] 2019/08/27 - 15:30:41 | 200 |    137.5696ms |             ::1 | POST     /api/v1/Login
